@@ -1,0 +1,68 @@
+:root {
+  --Color0: #dbdbe5;
+  --Color1: #dc191b;
+  --Color2: #e5bb4b;
+  --Color3: #585958;
+  --Color4: #e5e5e5;
+}
+
+h2 {
+  position: relative;
+  color: var(--Color0);
+  background-color: black;
+  top: 50px;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px 10px 10px 10px;
+  letter-spacing: 8px;
+  /* border-top: solid var(--Color1) 1px; */
+}
+
+.containerBestSeller {
+  border-top: 1px solid var(--Color1);
+  border-bottom: 1px solid var(--Color0);
+  margin-top: 50px;
+  height: 35vw;
+  display: flex;
+  background-color: black;
+}
+
+.product {
+  height: 25vw;
+  width: 19vw;
+}
+
+.container-product0,
+.container-product1,
+.container-product2,
+.container-product3 {
+  width: 19vw;
+  margin-top: 30px;
+}
+
+table {
+  width: 19vw;
+  position: relative;
+  right: 1px;
+  bottom: 5px;
+  background-color: var(--Color4);
+  margin: 0px 0px 0px 1px;
+}
+
+.productName {
+  position: relative;
+  right: 17px;
+  font-size: 20px;
+}
+
+.productDescription {
+  position: relative;
+  left: 8px;
+  font-size: 15px;
+  color: var(--Color3);
+}
+
+.productPrice {
+  font-size: 20px;
+  font-weight: 900;
+}

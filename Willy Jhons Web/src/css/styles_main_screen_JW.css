@@ -1,0 +1,40 @@
+:root {
+  --Color0: #dbdbe5;
+  --Color1: #dc191b;
+  --Color2: #e5bb4b;
+  --Color3: #585958;
+  --Color4: #e5e5e5;
+}
+
+.containerJW {
+  display: flex;
+  border-top: 1px solid var(--Color1);
+  border-bottom: 1px solid var(--Color0);
+  
+}
+
+.watchBackground {
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.696)),
+    url(/src/assets/products/reloj0.jpg);
+}
+
+.jewelBackground {
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.696)),
+    url(/src/assets/products/joya0.jpg);
+}
+
+.watchBackground,
+.jewelBackground {
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  margin: 20px 5px 20px 5px;
+  display: flex;
+  align-items: center;
+  color: var(--Color0);
+  font-size: 30px;
+  letter-spacing: 10px;
+  width: 50%;
+  
+}
+

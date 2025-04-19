@@ -1,0 +1,102 @@
+:root {
+    --Color0: #DBDBE5;
+    --Color1: #DC191B;
+    --Color2: #E5BB4B;
+    --Color3: #585958;
+    --Color4: #E5E5E5;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    background-color: black;
+}
+
+.logo img {
+    height: 10vw;    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul{
+    display: flex;
+    width: 20vw;
+    list-style: none;
+    position: absolute;
+    top: 9vh;
+    left: 60vh;
+}
+
+a{
+    text-decoration: none;
+    font-size: 3vh;
+    color: var(--Color0);
+}
+span {
+    color: var(--Color1);
+    font-size: 3vh;
+}
+.search {
+    height: 3vh;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.348), rgba(0, 0, 0, 0.964)),
+    url(/src/assets/ModeloHeader.jpg);
+    background-size: cover;
+    background-position: center ;
+    height: 30vw;
+}
+
+.container-slogan {
+    display: flex;
+}
+
+.slogan {
+    color: var(--Color0);
+    letter-spacing: 10px;
+}
+
+.search {
+    height: 30px;
+    /* width: 15vw; */
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-color:  rgba(0, 0, 0, 0.657);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: var(--Color0);
+}
+
+
+
+form {
+    position: relative;
+    bottom: 85px;
+    left: 60vh;
+    min-height: 30px;
+
+}
+
+
+
+.searchIcon {
+    font-size: 40px;
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--Color0);
+    cursor: pointer;
+}
+

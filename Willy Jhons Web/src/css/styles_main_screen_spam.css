@@ -1,0 +1,13 @@
+:root {
+    --Color0: #DBDBE5;
+    --Color1: #DC191B;
+    --Color2: #E5BB4B;
+    --Color3: #585958;
+    --Color4: #E5E5E5;
+}
+
+
+.containerSlogan {
+    background-color: aqua;
+    width: 100vw;
+}
