@@ -1,7 +1,7 @@
 import { HeroSection } from "../components/HeroSection"
 import { JewelWatchSection } from "../components/JewelWatchSection"
 import { BestSeller } from "../components/BestSeller"
-import { New_DiscountSection } from "../components/New_DiscountSection"
+import {  NewDiscountSection } from "../components/NewDiscountSection"
 import { SpamSection } from "../components/SpamSection"
 import { SpamSection2 } from "../components/SpamSection2"
 import { LocationSection } from "../components/LocationSection"
@@ -15,7 +15,7 @@ export const MainScreen = () => {
     <HeroSection/>
     <JewelWatchSection/>
     <BestSeller/>
-    <New_DiscountSection/>
+    <NewDiscountSection/>
     <SpamSection/>
     {/* <LocationSection/>
     <SpamSection2/>

@@ -49,7 +49,7 @@ span {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.348), rgba(0, 0, 0, 0.964)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.468), rgba(0, 0, 0, 0.964)),
     url(/src/assets/ModeloHeader.jpg);
     background-size: cover;
     background-position: center ;

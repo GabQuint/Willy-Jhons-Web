@@ -1,0 +1,14 @@
+*   Crear archivo Router.jsx (o App.jsx):
+    1.  Directamente en la carpeta src.
+
+*   *Instalar react-router-dom:*
+    1.  Ejecutar npm install react-router-dom o yarn add react-router-dom.
+
+*   Configurar el Router en Router.jsx:
+    1.  Importar BrowserRouter, Route y Routes desde react-router-dom.
+    2.  Envolver la aplicación con el componente <Router>.
+    3.  Definir las rutas con el componente <Route>.
+
+*   *Modificar main.jsx:*
+    1.  Importar el componente Router (o App).
+    2.  Reemplazar <MainScreen/> con <Router/> (o <App/>).
