@@ -17,9 +17,9 @@ export const MainScreen = () => {
     <BestSeller/>
     <NewDiscountSection/>
     <SpamSection/>
-    {/* <LocationSection/>
+    <LocationSection/>
     <SpamSection2/>
-    <Footer/> */}
+    <Footer/>
     </>
    
   )

@@ -1,0 +1,49 @@
+:root {
+  --Color0: #dbdbe5;
+  --Color1: #dc191b;
+  --Color2: #e5bb4b;
+  --Color3: #585958;
+  --Color4: #e5e5e5;
+}
+
+.containerUbi {
+  display: flex;
+  border-bottom: var(--Color0) solid 1px;
+  padding-bottom: 5vh;
+}
+
+.titleUbi {
+  color: var(--Color0);
+  border-top: var(--Color1) 1px solid;
+  
+}
+
+.titleUbi span,
+.titleUbi {
+  font-size: 50px;
+}
+
+.imageUbi {
+  background-image: url(../assets/local.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35vw;
+  width: 110vh;
+}
+
+.direction {
+  font-size: 30px;
+  letter-spacing: 5px;
+  width: 40vw;
+  height: 20vw;
+}
+
+.containerUbi img {
+  width: 5%;
+  height: 5%;
+  filter: invert(14%) sepia(47%) saturate(7434%) hue-rotate(355deg)
+    brightness(101%) contrast(88%);
+  position: relative;
+  top: 50vh;
+  right: 50vh;
+}

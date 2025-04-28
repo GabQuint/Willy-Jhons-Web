@@ -13,7 +13,7 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     align-items: center;
   
@@ -24,4 +24,15 @@
     color: var(--Color0);
     letter-spacing: 10px;
 
+}
+
+.containerSecondSlogan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.980), rgba(0, 0, 0, 0.490)),
+    url(/src/assets/products/joya1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
 }
